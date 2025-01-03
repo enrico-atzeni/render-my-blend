@@ -49,7 +49,7 @@ This project is ideal for users who need automated rendering of 3D models withou
 
 ```graphql
 render-my-blend/
-├── blender-script.py       # Blender Python script for automation
+├── blender_script.py       # Blender Python script for automation
 ├── render.bat              # Windows batch file to execute Blender
 ├── source/                 # Directory to place STL files
 ├── rendered/               # Directory where rendered files will be saved
@@ -62,6 +62,8 @@ render-my-blend/
 1. create a configuration file to parameterize source and output directory, background image, rendered resolution, number of rendered frames and video length and fps
 2. improve autopositioning of camera and background
 3. parameterize lights power and color
+4. translate all comments into English
+5. clean and refactor code (sorry about that, it started as a test and immediately went into production without proper standardization, I will do it very soon)
 
 
 ## Contributing
